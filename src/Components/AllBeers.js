@@ -24,7 +24,7 @@ function AllBeers(props) {
         <li className="beerList">
           <div style={style}>
             <Link to={`/allbeers/${eachbeer._id}`}>{eachbeer.name} </Link>{' '}
-            <img src={eachbeer.image_url} />
+            <img src={eachbeer.image_url} alt="Inda-gada-davida, baby" />
           </div>
         </li>
       );
