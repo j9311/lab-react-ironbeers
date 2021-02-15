@@ -8,7 +8,7 @@ function NewBeer(props) {
     e.preventDefault();
 
     axios
-      .post('https://ih-beers-api2.herokuapp.com/beers/new', { name: name })
+      .post('https://ih-beers-api2.herokuapp.com/beers/new', name)
       .then((resp) => {
         console.log(resp);
       });
